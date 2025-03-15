@@ -1,0 +1,33 @@
+
+body {
+    font-family: Arimo;
+    background: #a9667b;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card {
+    background: #1e1e1e;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.1) rotateY(10deg);
+    color: black;
+    background-color: white;
+}
+.card a {
+    color: #06c4f8;
+    text-decoration: none;
+    font-weight: bold;
+}
